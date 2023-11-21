@@ -1,0 +1,272 @@
+
+
+body {
+    font-family: 'Montserrat';
+    /*font-family: 'svg', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;*/
+    background-color:  whitesmoke;
+  }
+
+  th,td{
+    /*border: 1px solid;*/
+    /*border-radius: 25px;*/
+    padding: 12px 15px;
+  }
+  th{
+    /*border-radius: 25px;*/
+    background: #2C3E50;
+    color: #ffffff;
+    text-align: left;
+  }
+
+  #about{
+    width: 100%;
+    color: #ffffff;
+    margin-top: -25px;
+    padding: 0;
+    background-color: #2C3E50;
+    /*background-color: #009879;*/
+  }
+
+
+/*
+  .header_list{
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .header_list_items{
+    width: 50%;
+    float: left;
+    display: inline;
+  }
+
+  .header_list_items:last-child{
+    float: right;
+  }
+*/
+
+  .menu_list {
+    vertical-align: middle;
+    line-height: 100%;
+    position: sticky;
+    /*top: 0;*/
+    width: 100%;
+    /*background-color: #dddddd;*/
+    list-style-type: none;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: 0px;
+    /*margin: 0;*/
+    padding: 10x;
+    border: 1px solid #e7e7e7;
+    /*background-color: #01bd98;*/
+    background-color: #1a252f;
+    overflow: hidden;
+    /*background-color: #333;*/
+    /*background-color: #f3f3f3;*/
+  }
+  .menu_list_items{
+    vertical-align: middle;
+    font-size: 20px;
+    padding: 35px;
+    line-height: 100%;
+    /*border: solid 1px;*/
+    float: right;
+    display: inline;
+    /*border-right: none; /*1px solid #bbb;*/
+  }
+
+  .avatar{
+    display: block;
+    padding-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 265px;
+    height: 265px;
+    border-radius: 50%;
+  }
+
+  .menu_list_items a:hover {
+    /*background-color: #009879;*/
+    color: #ccc;
+  }
+
+  .active {
+    background-color: white;
+  }
+  
+  .menu_list_items:first-child {
+    padding:0;
+    vertical-align: middle;
+    /*font-size: 40px;*/
+    float: left;
+    /*border-right: none;*/
+  }
+
+  .menu_list_items a {
+    display: block;
+    padding: 8px;
+    /*background-color: #dddddd;*/
+    background-color: #1a252f;
+    text-decoration: none;
+    /*color: #666;*/
+
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+  }
+
+  .menu_button{
+    /*background-color: #00afbc;*/
+    background-color: #009879;
+    font-weight: 100000;
+    color: #ffffff;
+  }
+
+  #home {
+    /*background-color:  #00afbc;*/
+    background-color: #009879;
+    color: #ffffff;
+    padding-bottom: 0;
+    margin-left:-1cm;
+    margin-right:-1cm;
+    margin-top:-1cm;
+    padding-top: 0;
+    padding-bottom: 0;
+    height: 50mm;
+   }
+
+   .summary_text{
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+   }
+
+   .profile_name{
+    margin-left: 0.5cm;
+    /*font-size: 40px;*/
+    /*border: 1px solid;
+    border-radius: 0%;
+    border-color: black;*/
+   }
+
+   .contact_info{
+    margin-left: 1.5cm;
+   }
+
+   .styled_table{
+    /* Old
+    border: black 1px solid;
+    border-collapse: collapse;
+    text-align: left; */
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 25px;
+    margin: 25px 0;
+    font-size: 0.9em;
+    /*font-family: sans-serif;*/
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+
+   }
+   
+   .styled_table tbody tr:nth-of-type(even){
+    border-radius: 25px;
+    background-color: #efeeee;
+   }
+
+   .styled_table tbody tr:last-of-type {
+    border-radius: 25px;
+    border-bottom: 2px solid #2C3E50;
+    border-radius: 6px;
+}
+.styled_table tbody tr {
+    border-radius: 25px;
+    border-bottom: 1px solid #dddddd;
+}
+
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+    /*background-color: #eee;*/
+    background-color: #2C3E50;
+    /*color: #444;*/
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .collapsible:hover {
+    background-color: #ccc;
+  }
+
+  /* Style the collapsible content. Note: hidden by default */
+/*.content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+  }*/
+
+  .collapsible:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+
+  }
+
+  .content {
+    padding: 0 18px;
+    /*background-color: white;*/
+    color: white;
+    background-color: #2C3E50;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+
+  .icon-bar {
+    width: 100%; /* Full-width */
+    background-color: #2C3E50; /* Dark-grey background */
+    overflow: auto; /* Overflow due to float */
+  }
+  
+  .icon-bar a {
+    float: left; /* Float links side by side */
+    text-align: center; /* Center-align text */
+    width: 20%; /* Equal width (5 icons with 20% width each = 100%) */
+    padding: 12px 0; /* Some top and bottom padding */
+    transition: all 0.3s ease; /* Add transition for hover effects */
+    color: white; /* White text color */
+    font-size: 36px; /* Increased font size */
+  }
+  
+  .icon-bar a:hover {
+    background-color: #000; /* Add a hover color */
+  }
+  
+  .active {
+    color: white;
+    background-color: #1a252f; /* Add an active/current color */
+  }
+
+  hr.rounded{
+    margin-top: 45px;
+    width: 15%;
+    align-self: center;
+    border-top: 4px dotted #1a252f;
+    /*border-radius: 5px;*/
+  }
+  
